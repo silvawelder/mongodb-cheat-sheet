@@ -59,4 +59,15 @@
     > show dbs;
     admin                               0.000GB
     config                              0.000GB
-    ```    
+    ```  
+    ### How to use a database
+    command:
+    ```
+    use <database_name>;
+    ```
+
+    sample:
+    ```
+    use admin;
+    switched to db admin
+    ```  
