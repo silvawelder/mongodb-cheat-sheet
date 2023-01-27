@@ -50,7 +50,9 @@
     ```
     ### How to list all databases
     command:
-        ```> show dbs;```
+    ```
+    > show dbs;
+    ```
 
     sample:
     ```
