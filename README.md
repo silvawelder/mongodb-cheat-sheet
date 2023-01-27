@@ -25,10 +25,14 @@
     ## Login on MongoDB
 
     command:  
-        ```mongo -u root -p --host <host-mongodb> --authenticationDatabase admin```
+    ```
+    mongo -u root -p --host <host-mongodb> --authenticationDatabase admin
+    ```
 
     sample:  
-        ```mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin```
+    ```
+    mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin
+    ```
 
     ## Manipulating Database
 
