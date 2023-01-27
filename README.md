@@ -8,7 +8,7 @@
 - [Manipulating Collections](#Manipulating-collections)
   * [How to list all collections](#How-to-list-all-collections)
   * [How to list all collections from a schema](#How-to-list-all-collections-from-a-schema)
-  * [How to delete a collection from a schema](#How-to-delete-a-table-from-a-schema)
+  * [How to delete a collection from a schema](#How-to-delete-a-collection-from-a-schema)
   * [How to delete all collections from a schema](#How-to-delete-all-collections-from-a-schema)
 
 - [Manipulating Users](#Manipulating-collections)
@@ -18,17 +18,21 @@
   * [List all users](#List-all-users)
 
 - [Manipulating connections](#Manipulating-connections)
-  * [List number of active connections and max connections](#List-number-of-active-connections-and-max-connections)
+  * [List number of active connections and max connections](#List- number-of-active-connections-and-max-connections)
   * [How to create a password to an user](#How-to-create-a-password-to-an-user)
   * [Kill active connections](#Kill-active-connections)
 
     ## Login on MongoDB
 
     command:  
-        ```mongo -u root -p --host <host-mongodb> --authenticationDatabase admin```
+        ```
+        mongo -u root -p --host <host-mongodb> --authenticationDatabase admin
+        ```
 
     sample:  
-        ```mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin```
+        ```
+        mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin
+        ```
 
     ## Manipulating Database
 
@@ -55,4 +59,4 @@
     > show dbs;
     admin                               0.000GB
     config                              0.000GB
-    ```   
+    ```    
