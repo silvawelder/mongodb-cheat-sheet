@@ -18,7 +18,7 @@
   * [List all users](#List-all-users)
 
 - [Manipulating connections](#Manipulating-connections)
-  * [List number of active connections and max connections](#List-number-of-active-connections-and-max-connections)
+  * [List number of active connections and max connections](#List- number-of-active-connections-and-max-connections)
   * [How to create a password to an user](#How-to-create-a-password-to-an-user)
   * [Kill active connections](#Kill-active-connections)
 
@@ -44,13 +44,12 @@
         ```
 
     sample:
-    ```
-    use my_db;
-    db.test.insert({field: "value"})
-    ```
+        ```
+        use my_db;
+        db.test.insert({field: "value"})
+        ```
     ### How to list all databases
     command:
-    
         ```
         > show dbs;
         ```
