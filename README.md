@@ -25,34 +25,28 @@
     ## Login on MongoDB
 
     command:  
-        ```
-        mongo -u root -p --host <host-mongodb> --authenticationDatabase admin
-        ```
+        ```mongo -u root -p --host <host-mongodb> --authenticationDatabase admin```
 
     sample:  
-        ```
-        mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin
-        ```
+        ```mongo -u root -p --host 10.0.0.16 --authenticationDatabase admin```
 
     ## Manipulating Database
 
     ### How to create a new database
     command:
-        ```
-        use <db-name>;
-        db.test.insert({field: "value"})
-        ```
+    ```
+    use <db-name>;
+    db.test.insert({field: "value"})
+    ```
 
     sample:
-        ```
-        use my_db;
-        db.test.insert({field: "value"})
-        ```
+    ```
+    use my_db;
+    db.test.insert({field: "value"})
+    ```
     ### How to list all databases
     command:
-        ```
-        > show dbs;
-        ```
+        ```> show dbs;```
 
     sample:
     ```
